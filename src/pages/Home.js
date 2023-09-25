@@ -41,24 +41,24 @@ const contentBack = useTypingEffect(`
         <h2> Amadeo Costaldi </h2>
         <h4> Software Engineer</h4>
       </div>
-      <div><h3>Amadeo@acostaldi.com:~/Greetings</h3></div> 
+      <div><h3>Amadeo@amadeoc.dev:~/Greetings</h3></div> 
       <div className = "typing-container">
       {intro}
       </div>
-       <div><h3>Amadeo@acostaldi.com:~/Contacts&Links </h3></div> 
+       <div><h3>Amadeo@amadeoc.dev:~/Contacts&Links </h3></div> 
        <div className = "typing-container">
        {contact}
         <p><LinkedInIcon style ={{verticalAlign: "bottom" }}/>LinkedIn: <a href="https://www.linkedin.com/in/amadeoc" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/amadeoc</a> </p>
         <p><EmailIcon style ={{verticalAlign: "bottom" }}/>Email: <a href="mailto:amadeom.costaldi@gmail.com" target="_blank" rel="noopener noreferrer">amadeom.costaldi@gmail.com</a> </p>
         <p><GitHubIcon style ={{verticalAlign: "bottom" }}/>Github: <a href="https://github.com/acostaldi" target="_blank" rel="noopener noreferrer">https://github.com/acostaldi</a> </p>
        </div>
-       <div><h3>Amadeo@acostaldi.com:~/Education</h3></div> 
+       <div><h3>Amadeo@amadeoc.dev:~/Education</h3></div> 
        <div className = "title-type">
       {edu_intro}
       </div>
        <div>
        </div>
-       <div><h3>Amadeo@acostaldi.com:~/Skills</h3></div> 
+       <div><h3>Amadeo@amadeoc.dev:~/Skills</h3></div> 
        <div className = "title-type">
       {titleFront}
       </div>
