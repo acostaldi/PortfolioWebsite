@@ -15,25 +15,25 @@ function Home() {
   const titleBack = useTypingEffect('Back End', 50)
   const titleSpecial = useTypingEffect('Project Management Skills', 50)
   const contentFront = useTypingEffect(`
-  HTML5 - Proficient in creating structured and appealing structured web pages using HTML5.
-  CSS - Skilled in designing responsive and visually appealing web layouts with CSS.
-  JavaScript - Experienced in building interactive web applications and enhancing user experiences with JavaScript.
+  HTML5 - Proficient in creating structured and appealing web pages using HTML5.\n
+  CSS - Skilled in designing responsive and visually appealing web layouts with CSS.\n
+  JavaScript - Experienced in building interactive web applications and enhancing user experiences with JavaScript.\n
   React - Familiar in developing modern, component-based websites and web apps using React.`, 30);
 
   const contentBack = useTypingEffect(`
-  Node.js - Experienced in server-side JavaScript development with Node.js.
-  Express.js - Familiar with building web applications using Express.js.
-  Java Spring - Building skill with developing Java applications with the Spring framework.
-  Java - Experienced for three years in creating robust and efficient Java applications.
-  Python - Experienced with developing a wide variety of applications in Python from encrypted messaging apps to artificial intelligence models.
-  C/C++ - Familiar in low-level programming with C/C++ for operating system design, algorithm implementations, and application development.
-  C# - Familiar with utilizing C# for scripting purposes especially within the Unity engine.
-  Kotlin - Experienced in Android app development with Kotlin ranging from Calculator to Social Media applications.
+  Node.js - Experienced in server-side JavaScript development with Node.js.\n
+  Express.js - Familiar with building web applications using Express.js.\n
+  Java Spring - Building skill with developing Java applications with the Spring framework.\n
+  Java - Experienced for three years in creating robust and efficient Java applications.\n
+  Python - Experienced with developing a wide variety of applications in Python from encrypted messaging apps to artificial intelligence models.\n
+  C/C++ - Familiar in low-level programming with C/C++ for operating system design, algorithm implementations, and application development.\n
+  C# - Familiar with utilizing C# for scripting purposes especially within the Unity engine.\n
+  Kotlin - Experienced in Android app development with Kotlin ranging from Calculator to Social Media applications.\n
   SQL - Proficient in database design, querying, and management using SQL.`, 30);
 
   const contentSpecial = useTypingEffect(`Software Development Management - Possesses experience leading and being a part of teams of software engineers, 
   organizing workflows, delegating responsibility, and faciliating cooperation between different interdisciplinary teams\n
-  Software Engineering Practices - Familiar with Agile methodologies and Paired Programming enviroments\nVersion Control - Well experienced maintaining proper version control with both Git and PlasticSCM\n`, 50)
+  Software Engineering Practices - Familiar with Agile methodologies and Paired Programming envirnoments\nVersion Control - Well experienced maintaining proper version control with both Git and PlasticSCM\n`, 50)
   const contact = useTypingEffect(`I'd love to connect with you! Feel free to contact me through Email or LinkedIn, and I'd be happy to talk with you and/or provide my resume. You are also more then welcome to view my work on Github.`, 50);
 
   return (
