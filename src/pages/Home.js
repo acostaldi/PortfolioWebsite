@@ -14,14 +14,12 @@ function Home() {
   const titleFront = useTypingEffect('Front End', 50)
   const titleBack = useTypingEffect('Back End', 50)
   const titleSpecial = useTypingEffect('Project Management Skills', 50)
-  const contentFront = useTypingEffect(`
-  HTML5 - Proficient in creating structured and appealing web pages using HTML5.\n
+  const contentFront = useTypingEffect(`HTML5 - Proficient in creating structured and appealing web pages using HTML5.\n
   CSS - Skilled in designing responsive and visually appealing web layouts with CSS.\n
   JavaScript - Experienced in building interactive web applications and enhancing user experiences with JavaScript.\n
   React - Familiar in developing modern, component-based websites and web apps using React.`, 30);
 
-  const contentBack = useTypingEffect(`
-  Node.js - Experienced in server-side JavaScript development with Node.js.\n
+  const contentBack = useTypingEffect(`Node.js - Experienced in server-side JavaScript development with Node.js.\n
   Express.js - Familiar with building web applications using Express.js.\n
   Java Spring - Building skill with developing Java applications with the Spring framework.\n
   Java - Experienced for three years in creating robust and efficient Java applications.\n
