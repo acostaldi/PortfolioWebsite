@@ -8,7 +8,7 @@ import EmailIcon from '@mui/icons-material/Email';
   
 
 function Home() {
-  const intro = useTypingEffect(` Welcome and salutations! I'm Amadeo Costaldi, a senior Computer Science Major at the University of Arkansas.
+  const intro = useTypingEffect(` Salutations! Welcome to my developer site! I'm Amadeo Costaldi, a senior Computer Science Major at the University of Arkansas with a passion for software development.
   My primary interests are Full Stack and Back-End development with sub-interests in: \n1. Mobile Development \n2. Videogame Development\n3. Artificial Intelligence
   4. Cybersecurity`, 25);
   const edu_intro = useTypingEffect('Bachelor of Science: Computer Science\n University of Arkansas\n August 2020 through May 2024', 50)
@@ -34,6 +34,7 @@ const contentBack = useTypingEffect(`
 
   const contentSpecial = useTypingEffect(`Software Development Management - Possesses experience leading teams of software engineers, 
   organizing workflows, delegating responsibility, and faciliating cooperation between different teams\nSoftware Engineering Practices - Familiar with Agile methodologies and Paired Programming enviroments\n`, 50)
+  const contact = useTypingEffect(`I'd love to connect with you! Feel free to contact me through Email or LinkedIn, and I'd be happy to talk with you and/or provide my resume. You are also more then welcome to view my work on Github.`, 50);
   return (
     <div className="home">
       <div className="about">
@@ -44,11 +45,12 @@ const contentBack = useTypingEffect(`
       <div className = "typing-container">
       {intro}
       </div>
-       <div><h3>Amadeo@acostaldi.com:~/Contacts </h3></div> 
+       <div><h3>Amadeo@acostaldi.com:~/Contacts&Links </h3></div> 
        <div className = "typing-container">
+       {contact}
         <p><LinkedInIcon style ={{verticalAlign: "bottom" }}/>LinkedIn: <a href="https://www.linkedin.com/in/amadeoc" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/amadeoc</a> </p>
-        <p><GitHubIcon style ={{verticalAlign: "bottom" }}/>Github: <a href="https://github.com/acostaldi" target="_blank" rel="noopener noreferrer">https://github.com/acostaldi</a> </p>
         <p><EmailIcon style ={{verticalAlign: "bottom" }}/>Email: <a href="mailto:amadeom.costaldi@gmail.com" target="_blank" rel="noopener noreferrer">amadeom.costaldi@gmail.com</a> </p>
+        <p><GitHubIcon style ={{verticalAlign: "bottom" }}/>Github: <a href="https://github.com/acostaldi" target="_blank" rel="noopener noreferrer">https://github.com/acostaldi</a> </p>
        </div>
        <div><h3>Amadeo@acostaldi.com:~/Education</h3></div> 
        <div className = "title-type">

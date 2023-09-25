@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App" style={{ backgroundImage: `url('/background2.png')`}}>
       <Router>
-      <Navbar />
+      {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
