@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url('/background2.png')`}}>
       <Router>
       <Navbar />
         <Routes>
