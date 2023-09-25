@@ -6,8 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
 function Home() {
-  const intro = useTypingEffect(` Greetings! Welcome to my developer site! I'm Amadeo Costaldi, 
-  a senior Computer Science Major at the University of Arkansas with a passion for software development.
+  const intro = useTypingEffect(` Greetings! Welcome to my developer site! I'm Amadeo Costaldi, a senior Computer Science Major at the University of Arkansas with a passion for software development.
   My primary interests are Full Stack and Back-end development with sub-interests in: \n1. Mobile Development \n2. Videogame Development\n3. Artificial Intelligence
   4. Cybersecurity`, 25);
   const edu_intro = useTypingEffect('Bachelor of Science: Computer Science\n University of Arkansas\n August 2020 through May 2024', 50)
