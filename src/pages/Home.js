@@ -5,11 +5,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
-  
-
 function Home() {
-  const intro = useTypingEffect(` Salutations! Welcome to my developer site! I'm Amadeo Costaldi, a senior Computer Science Major at the University of Arkansas with a passion for software development.
-  My primary interests are Full Stack and Back-End development with sub-interests in: \n1. Mobile Development \n2. Videogame Development\n3. Artificial Intelligence
+  const intro = useTypingEffect(` Greetings! Welcome to my developer site! I'm Amadeo Costaldi, 
+  a senior Computer Science Major at the University of Arkansas with a passion for software development.
+  My primary interests are Full Stack and Back-end development with sub-interests in: \n1. Mobile Development \n2. Videogame Development\n3. Artificial Intelligence
   4. Cybersecurity`, 25);
   const edu_intro = useTypingEffect('Bachelor of Science: Computer Science\n University of Arkansas\n August 2020 through May 2024', 50)
   const titleFront = useTypingEffect('Front End', 50)
@@ -19,22 +18,24 @@ function Home() {
   HTML5 - Proficient in creating structured and appealing structured web pages using HTML5.
   CSS - Skilled in designing responsive and visually appealing web layouts with CSS.
   JavaScript - Experienced in building interactive web applications and enhancing user experiences with JavaScript.
-  React - Familiar in developing modern, component-based websites and web appss using React.`, 30);
+  React - Familiar in developing modern, component-based websites and web apps using React.`, 30);
 
-const contentBack = useTypingEffect(`
+  const contentBack = useTypingEffect(`
   Node.js - Experienced in server-side JavaScript development with Node.js.
-  Express.js - Familair with building web applications using Express.js.
-  Java Spring - Proficient in developing Java applications with the Spring framework.
+  Express.js - Familiar with building web applications using Express.js.
+  Java Spring - Building skill with developing Java applications with the Spring framework.
   Java - Experienced for three years in creating robust and efficient Java applications.
-  Python = Experienced with developing a wide variety of applications in Python from encrypted messaging apps to artificial intelligence models.
+  Python - Experienced with developing a wide variety of applications in Python from encrypted messaging apps to artificial intelligence models.
   C/C++ - Familiar in low-level programming with C/C++ for operating system design, algorithm implementations, and application development.
   C# - Familiar with utilizing C# for scripting purposes especially within the Unity engine.
   Kotlin - Experienced in Android app development with Kotlin ranging from Calculator to Social Media applications.
   SQL - Proficient in database design, querying, and management using SQL.`, 30);
 
-  const contentSpecial = useTypingEffect(`Software Development Management - Possesses experience leading teams of software engineers, 
-  organizing workflows, delegating responsibility, and faciliating cooperation between different teams\nSoftware Engineering Practices - Familiar with Agile methodologies and Paired Programming enviroments\n`, 50)
+  const contentSpecial = useTypingEffect(`Software Development Management - Possesses experience leading and being a part of teams of software engineers, 
+  organizing workflows, delegating responsibility, and faciliating cooperation between different interdisciplinary teams\n
+  Software Engineering Practices - Familiar with Agile methodologies and Paired Programming enviroments\nVersion Control - Well experienced maintaining proper version control with both Git and PlasticSCM\n`, 50)
   const contact = useTypingEffect(`I'd love to connect with you! Feel free to contact me through Email or LinkedIn, and I'd be happy to talk with you and/or provide my resume. You are also more then welcome to view my work on Github.`, 50);
+
   return (
     <div className="home">
       <div className="about">
