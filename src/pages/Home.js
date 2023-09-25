@@ -30,7 +30,8 @@ function Home() {
 
   const contentSpecial = useTypingEffect(`Software Development Management - Possesses experience leading and being a part of teams of software engineers, 
   organizing workflows, delegating responsibility, and faciliating cooperation between different interdisciplinary teams\n
-  Software Engineering Practices - Familiar with Agile methodologies and Paired Programming environments\nVersion Control - Well experienced maintaining proper version control with both Git and PlasticSCM.\n`, 50)
+  Software Engineering Practices - Familiar with Agile methodologies and Paired Programming environments\n
+  Version Control - Well experienced maintaining proper version control with both Git and PlasticSCM.\n`, 50)
   const contact = useTypingEffect(`I'd love to connect with you! Feel free to contact me through Email or LinkedIn, and I'd be happy to talk with you and/or provide my resume. You are also more then welcome to view my work on Github.`, 50);
 
   return (
